@@ -101,14 +101,16 @@ html{
     padding-top: 114px;
     text-align: center;
     margin-top: 103px;
-    height: 1193px;
 }
 .section-product-title{
     font-family: Raleway;
     color: #303030;
     font-size: 48px; /* Приближение из-за подстановки шрифтов */
     font-weight: 900;
-    line-height: 150px; /* Приближение из-за подстановки шрифтов */
+    padding-bottom: 18px;
+}
+.section-product-img-underline{
+    padding-bottom: 12px;
 }
 .section-product-text{
     font-family: Raleway;
@@ -213,5 +215,65 @@ html{
     max-width: 551px;
     height: 42px;
     margin: auto;
-    margin-top: 21px;
+    padding-top: 21px;
+}
+.productman-footer-form{
+    padding-bottom: 112px;
+    padding-top: 37px;
+}
+.productman-footer-form-input-email{
+    height: 70px;
+    width: 425px;
+    border: none;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    font-family: Raleway;
+    color: #979797;
+    font-size: 18px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 600;
+    font-style: italic;
+    background: url("img/mail.png") 32px no-repeat #fff;
+    padding-left: 65px;
+}
+.productman-footer-form-input-btn{
+    width: 208px;
+    height: 70px;
+    border: none;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color:  #e10011;
+    font-family: Roboto;
+    color:  #ffffff;
+    font-size: 18px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    margin-left: -3px;
+}
+.productman-footer-form-input-triangle{
+    display: inline-block;
+    border: 6px solid transparent;
+    border-left: 6px solid #fff;
+    margin-bottom: 1px;
+}
+.productman-footer-social{
+    padding-bottom: 65px;
+}
+.productman-footer-li{
+    display: inline-block;
+    padding-right: 20px;
+}
+.productman-footer-li:nth-child(4){
+    padding-right: 0;
+}
+.productman-footer-info{
+    font-family: Raleway;
+    color:  #979797;
+    font-size: 18px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+.productman-footer-info span{
+    color:  #303030;
 }
