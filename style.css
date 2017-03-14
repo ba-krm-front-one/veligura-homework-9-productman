@@ -1,0 +1,280 @@
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #EDEDED;
+}
+html{
+    height: 100%;
+}
+.container {
+    max-width: 1198px;
+    margin: 0 auto;
+}
+.header{
+    height: 96px;
+    position: relative;
+    margin-bottom: 124px;
+}
+.logo{
+    position: absolute;
+    padding-top: 48px;
+}
+.logo-title{
+    font-family: Roboto;
+    color: #303030;
+    font-size: 48px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 900;
+}
+.menu{
+    position: absolute;
+    padding-top: 78px;
+    right: 0;
+}
+.menu__item{
+    display: inline-block;
+    padding-left: 35px;
+}
+.menu__link{
+    font-family: Roboto;
+    color: #303030;
+    font-size: 18px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    text-decoration: none;
+}
+.productman-info{
+    max-width: 599px;
+    float: left;
+}
+.productman-info__title{
+    font-family: Raleway;
+    color: #303030;
+    font-size: 148px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 900;
+    text-align: left;
+    text-transform: uppercase;
+}
+.productman-info__title-white{
+    text-align: right;
+}
+.productman-info__text{
+    font-family: Roboto;
+    color: #303030;
+    font-size: 24px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 34px;/* Приближение из-за подстановки шрифтов */
+    text-align: right;
+    max-width: 571px;
+    height: 95px;
+    float: right;
+}
+.productman__project{
+    font-family: Roboto;
+    color: #e10011;
+    font-size: 24px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 36px; /* Приближение из-за подстановки шрифтов */
+    float: right;
+    padding-top: 25px;
+}
+.productman-slider{
+    margin-top: 88px;
+    clear: both;
+}
+.productman-slider__align{
+    text-align: center;
+}
+.productman-slider__circle{
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #303030;
+    width: 11px;
+    height: 11px;
+    margin-right: 9px;
+}
+.productman-img{
+    padding-left: 95px;
+}
+.section-product{
+    border-radius: 5px;
+    background-color:  #ffffff;
+    max-width: 1198px;
+    min-height: 1193px;
+    padding-top: 114px;
+    text-align: center;
+    margin-top: 103px;
+}
+.section-product__title{
+    font-family: Raleway;
+    color: #303030;
+    font-size: 48px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 900;
+    padding-bottom: 18px;
+}
+.section-product-img-underline{
+    padding-bottom: 12px;
+}
+.section-product__text{
+    font-family: Raleway;
+    color: #303030;
+    font-size: 18px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 24px; /* Приближение из-за подстановки шрифтов */
+    max-width: 551px;
+    height: 42px;
+    margin: auto;
+    padding-bottom: 73px;
+}
+.article-item1 {
+    width: 692px;
+    height: 387px;
+    float: left;
+    margin-left: 72px;
+    margin-bottom: 35px;
+    position: relative;
+}
+.article-item2 {
+    width: 328px;
+    height: 387px;
+    float:right;
+    margin-right: 72px;
+    margin-bottom: 35px;
+    position: relative;
+}
+.article-item3 {
+    width: 328px;
+    height: 387px;
+    float:left;
+    margin-left: 72px;
+    position: relative;
+}
+.article-item4 {
+    width: 328px;
+    height: 387px;
+    float:left;
+    margin-left: 35px;
+    position: relative;
+}
+.article-item5 {
+    width: 328px;
+    height: 387px;
+    float:right;
+    margin-right: 72px;
+    position: relative;
+}
+.article-items-hover{
+    position: absolute;
+    background-color: rgb(225, 0, 17);
+    border-radius: 5px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    visibility: hidden;
+    cursor: pointer;
+}
+.article-items-text{
+    position: absolute;
+    left: 37px;
+    bottom: 42px;
+    color: #ffffff;
+    text-align: left;
+}
+.article-items-hover h3{
+    font-family: Roboto;
+    color:  #ffffff;
+    font-size: 30px;/* Приближение из-за подстановки шрифтов */
+}
+.line{
+    background-color:  #ffffff;
+    width: 92px;
+    height: 5px;
+    margin-top: 11px;
+}
+.article-item1:hover .article-items-hover,
+.article-item2:hover .article-items-hover,
+.article-item3:hover .article-items-hover,
+.article-item4:hover .article-items-hover,
+.article-item5:hover .article-items-hover{
+    visibility: visible;
+}
+.productman-footer{
+    text-align: center;
+}
+.productman-footer__title{
+    font-family: Raleway;
+    color: #303030;
+    font-size: 48px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 900;
+    margin-top: 99px;
+}
+.productman-footer__text{
+    font-family: Raleway;
+    color: #303030;
+    font-size: 18px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 24px; /* Приближение из-за подстановки шрифтов */
+    max-width: 551px;
+    height: 42px;
+    margin: auto;
+    padding-top: 21px;
+}
+.productman-footer-form{
+    padding-bottom: 112px;
+    padding-top: 37px;
+}
+.productman-footer-form-input-email{
+    height: 70px;
+    width: 425px;
+    border: none;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    font-family: Raleway;
+    color: #979797;
+    font-size: 18px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 600;
+    font-style: italic;
+    background: url("img/mail.png") 32px no-repeat #fff;
+    padding-left: 65px;
+}
+.productman-footer-form-input-btn{
+    width: 208px;
+    height: 70px;
+    border: none;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color:  #e10011;
+    font-family: Roboto;
+    color:  #ffffff;
+    font-size: 18px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    margin-left: -3px;
+}
+.productman-footer-form-input-triangle{
+    display: inline-block;
+    border: 6px solid transparent;
+    border-left: 6px solid #fff;
+    margin-bottom: 1px;
+}
+.productman-footer-social{
+    padding-bottom: 65px;
+}
+.productman-footer__li{
+    display: inline-block;
+    padding-right: 20px;
+}
+.productman-footer__li:nth-child(4){
+    padding-right: 0;
+}
+.productman-footer__info{
+    font-family: Raleway;
+    color:  #979797;
+    font-size: 18px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+.productman-footer__info span{
+    color:  #303030;
+}
